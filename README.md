@@ -7,7 +7,6 @@ This repository is part of the **SME/TW collaboration** for the Technical Writin
 - **SME:** Drashti Bhatt  
 - **TW:** Eddie McHam  
 - **Service:** Recipe Buddy API  
-- **Repo Purpose:** SME-managed source files for API structure and data examples.
 
 ## Key Features
 - Ingredient-based search — find recipes using what’s already in your pantry.  
