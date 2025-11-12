@@ -86,14 +86,6 @@ RecipeBuddy-API/
 ## Use Case Example
 A user named **Drashti** opens Recipe Buddy, enters “potatoes, spinach, and cheese” as available ingredients. The API instantly returns dishes like *Spinach Cheese Omelet* or *Aloo Palak*, which can be made immediately without extra shopping. This reduces food waste and simplifies decision-making in the kitchen.
 
-## Collaboration Notes
-This repository is maintained by **Drashti Bhatt (SME)** and shared with **Eddie McHam (TW)**. It provides base data and specifications to support API documentation in the **SmartCV** repo.  
-Future collaboration will include:  
-- Adding OpenAPI/Swagger specifications  
-- Writing reference documentation and tutorials  
-- Integrating visuals and code samples into Eddie’s SmartCV project
 
-## License
 This project is part of an academic documentation portfolio and may be used for educational purposes only.  
 
-© 2025 Drashti Bhatt. All rights reserved.
