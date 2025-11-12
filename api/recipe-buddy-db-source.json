@@ -1,0 +1,66 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Spinach Cheese Omelet",
+      "ingredients": ["Eggs", "Spinach", "Cheese", "Salt", "Pepper"],
+      "cookingTime": 10,
+      "difficulty": "Easy",
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "title": "Masala Khichdi",
+      "ingredients": ["Rice", "Lentils", "Ghee", "Spices", "Vegetables"],
+      "cookingTime": 25,
+      "difficulty": "Medium",
+      "authorId": 2
+    },
+    {
+      "id": 3,
+      "title": "Paneer Tikka",
+      "ingredients": ["Paneer", "Yogurt", "Spices", "Onion", "Capsicum"],
+      "cookingTime": 30,
+      "difficulty": "Medium",
+      "authorId": 3
+    },
+    {
+      "id": 4,
+      "title": "Pasta Primavera",
+      "ingredients": ["Pasta", "Tomatoes", "Olive Oil", "Garlic", "Basil"],
+      "cookingTime": 20,
+      "difficulty": "Easy",
+      "authorId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Drashti Bhatt",
+      "email": "drashti@example.com",
+      "favoriteCuisines": ["Indian", "Italian"],
+      "ownedIngredients": ["Rice", "Tomatoes", "Garlic", "Cheese", "Spinach"]
+    },
+    {
+      "id": 2,
+      "name": "Eddie McHam",
+      "email": "eddie@example.com",
+      "favoriteCuisines": ["Mexican", "Asian"],
+      "ownedIngredients": ["Beans", "Corn", "Chili", "Chicken"]
+    },
+    {
+      "id": 3,
+      "name": "Alex Johnson",
+      "email": "alex@example.com",
+      "favoriteCuisines": ["Mediterranean"],
+      "ownedIngredients": ["Olive Oil", "Feta", "Cucumber", "Lemon"]
+    },
+    {
+      "id": 4,
+      "name": "Priya Patel",
+      "email": "priya@example.com",
+      "favoriteCuisines": ["Indian", "Thai"],
+      "ownedIngredients": ["Rice", "Coconut Milk", "Curry Paste", "Vegetables"]
+    }
+  ]
+}
