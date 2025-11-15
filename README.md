@@ -8,14 +8,14 @@ This repository is part of the **SME/TW collaboration** for the Technical Writin
 - **TW:** Eddie McHam  
 - **Service:** Recipe Buddy API  
 
-## Key Features
+## Key features
 - Ingredient-based search — find recipes using what’s already in your pantry.  
 - Recipe storage — save and organize personal or favorite recipes.  
 - Culinary insights — filter by cuisine, difficulty, or cook time.  
 - Favorites tracking — keep a record of preferred cuisines and dishes.  
 - Shareable content — export recipes or send to other users.
 
-## API Resources
+## API resources
 ### `/recipes`
 | Field | Type | Description |
 |--------|------|-------------|
@@ -35,14 +35,14 @@ This repository is part of the **SME/TW collaboration** for the Technical Writin
 | `favoriteCuisines` | Array | Preferred cuisines |
 | `ownedIngredients` | Array | Ingredients currently available in the user’s kitchen |
 
-## Example Database File
+## Example database file
 The main database file for this service is:
 ```
 api/recipe-buddy-db-source.json
 ```
 It contains mock data used for API examples — including recipes and users. This file models how data would be stored and fetched by a backend service.
 
-## Example Query
+## Example query
 **Request**
 ```
 GET /recipes?ingredients=spinach,cheese
@@ -61,7 +61,7 @@ GET /recipes?ingredients=spinach,cheese
 ]
 ```
 
-## Quick Start (Example Integration)
+## Quick start (Example Integration)
 ### Using cURL
 ```bash
 curl https://example.com/api/recipes?ingredients=tomato,cheese
@@ -74,7 +74,7 @@ fetch('/api/recipes?ingredients=tomato,cheese')
 ```
 These calls return a filtered list of recipes that match the provided ingredients.
 
-## Project Structure
+## Project structure
 ```
 RecipeBuddy-API/
 ├── README.md
@@ -82,7 +82,7 @@ RecipeBuddy-API/
     └── recipe-buddy-db-source.json
 ```
 
-## Use Case Example
+## Use case example
 A user named **Drashti** opens Recipe Buddy, enters “potatoes, spinach, and cheese” as available ingredients. The API instantly returns dishes like *Spinach Cheese Omelet* or *Aloo Palak*, which can be made immediately without extra shopping. This reduces food waste and simplifies decision-making in the kitchen.
 
 
