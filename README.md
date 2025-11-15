@@ -1,14 +1,18 @@
 # Recipe Buddy API
+
 *A smart kitchen companion for discovering and managing recipes.*
 
 ## Overview
+
 **Recipe Buddy API** is a RESTful web service designed for home cooks and food enthusiasts. It allows users to discover, save, and share recipes — and even suggests dishes based on ingredients already in their kitchen. The goal is to make home cooking simpler, reduce food waste, and save time searching for meal ideas.  
 This repository is part of the **SME/TW collaboration** for the Technical Writing Portfolio project.  
+
 - **SME:** Drashti Bhatt  
 - **TW:** Eddie McHam  
 - **Service:** Recipe Buddy API  
 
 ## Key features
+
 - Ingredient-based search — find recipes using what’s already in your pantry.  
 - Recipe storage — save and organize personal or favorite recipes.  
 - Culinary insights — filter by cuisine, difficulty, or cook time.  
@@ -16,7 +20,9 @@ This repository is part of the **SME/TW collaboration** for the Technical Writin
 - Shareable content — export recipes or send to other users.
 
 ## API resources
+
 ### `/recipes`
+
 | Field | Type | Description |
 |--------|------|-------------|
 | `id` | Integer | Unique recipe ID |
@@ -27,6 +33,7 @@ This repository is part of the **SME/TW collaboration** for the Technical Writin
 | `authorId` | Integer | References the recipe creator in `/users` |
 
 ### `/users`
+
 | Field | Type | Description |
 |--------|------|-------------|
 | `id` | Integer | Unique user ID |
@@ -36,10 +43,13 @@ This repository is part of the **SME/TW collaboration** for the Technical Writin
 | `ownedIngredients` | Array | Ingredients currently available in the user’s kitchen |
 
 ## Example database file
+
 The main database file for this service is:
-```
+
+```bash
 api/recipe-buddy-db-source.json
 ```
+
 It contains mock data used for API examples — including recipes and users. This file models how data would be stored and fetched by a backend service.
 
 ## Example query
