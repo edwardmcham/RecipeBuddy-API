@@ -13,18 +13,18 @@ This repository is part of the **SME/TW collaboration** for the Technical Writin
 
 ## Key features
 
-- Ingredient-based search — find recipes using what’s already in your pantry.  
-- Recipe storage — save and organize personal or favorite recipes.  
-- Culinary insights — filter by cuisine, difficulty, or cook time.  
-- Favorites tracking — keep a record of preferred cuisines and dishes.  
-- Shareable content — export recipes or send to other users.
+- **Ingredient-based search:** Find recipes using what’s already in your pantry.  
+- **Recipe storage:** Save and organize personal or favorite recipes.  
+- **Culinary insights:** Filter by cuisine, difficulty, or cook time.  
+- **Favorites tracking:** Keep a record of preferred cuisines and dishes.  
+- **Shareable content:** Export recipes or send to other users.
 
 ## API resources
 
 ### `/recipes`
 
 | Field | Type | Description |
-|--------|------|-------------|
+|:-|:-|:-|
 | `id` | Integer | Unique recipe ID |
 | `title` | String | Recipe title |
 | `ingredients` | Array | List of required ingredients |
@@ -35,7 +35,7 @@ This repository is part of the **SME/TW collaboration** for the Technical Writin
 ### `/users`
 
 | Field | Type | Description |
-|--------|------|-------------|
+|:-|:-|:-|
 | `id` | Integer | Unique user ID |
 | `name` | String | User’s full name |
 | `email` | String | Contact email address |
@@ -53,11 +53,15 @@ api/recipe-buddy-db-source.json
 It contains mock data used for API examples — including recipes and users. This file models how data would be stored and fetched by a backend service.
 
 ## Example query
-**Request**
-```
+
+### Request
+
+```bash
 GET /recipes?ingredients=spinach,cheese
 ```
-**Response**
+
+### Response
+
 ```json
 [
   {
@@ -72,20 +76,26 @@ GET /recipes?ingredients=spinach,cheese
 ```
 
 ## Quick start (Example Integration)
+
 ### Using cURL
+
 ```bash
 curl https://example.com/api/recipes?ingredients=tomato,cheese
 ```
+
 ### Using JavaScript (fetch)
+
 ```javascript
 fetch('/api/recipes?ingredients=tomato,cheese')
   .then(response => response.json())
   .then(data => console.log(data));
 ```
+
 These calls return a filtered list of recipes that match the provided ingredients.
 
 ## Project structure
-```
+
+```text
 RecipeBuddy-API/
 ├── README.md
 └── api/
@@ -93,8 +103,7 @@ RecipeBuddy-API/
 ```
 
 ## Use case example
+
 A user named **Drashti** opens Recipe Buddy, enters “potatoes, spinach, and cheese” as available ingredients. The API instantly returns dishes like *Spinach Cheese Omelet* or *Aloo Palak*, which can be made immediately without extra shopping. This reduces food waste and simplifies decision-making in the kitchen.
 
-
 This project is part of an academic documentation portfolio and may be used for educational purposes only.  
-
