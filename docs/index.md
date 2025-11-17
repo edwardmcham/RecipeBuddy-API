@@ -2,7 +2,8 @@
 
 *A smart kitchen companion for discovering and managing recipes.*
 
-**Recipe Buddy API** is a RESTful web service designed for home cooks and food enthusiasts. It allows users to discover, save, and share recipes — and even suggests dishes based on ingredients already in their kitchen. The goal is to make home cooking simpler, reduce food waste, and save time searching for meal ideas.  
+**Recipe Buddy API** is a RESTful web service designed for home cooks and food enthusiasts. It allows users to discover, save, and share recipes — and even suggests dishes based on ingredients already in their kitchen. The goal is to make home cooking simpler, reduce food waste, and save time searching for meal ideas.
+
 This repository is part of the **SME/TW collaboration** for the Technical Writing Portfolio project.  
 
 - **SME:** Drashti Bhatt  
