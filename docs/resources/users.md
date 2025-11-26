@@ -41,8 +41,4 @@ Contains information about the `users` in the `RecipeBuddy` API service.
 
 ## Read Operations
 
-- [Get recipes with ingredients](../tasks/get-recipes-with-ingredients.md)
-
----
-
-[^ top ^](#user-resource)
+- [Get users with ingredients](../tasks/get-users-with-ingredients.md)

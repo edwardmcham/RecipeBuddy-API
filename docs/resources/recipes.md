@@ -41,7 +41,3 @@ Contains information about the `recipes` in the `RecipeBuddy` API service.
 ## Read Operations
 
 - [Get recipes with ingredients](../tasks/get-recipes-with-ingredients.md)
-
----
-
-[^ top ^](#recipe-resource)
