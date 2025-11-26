@@ -49,5 +49,3 @@ fetch('/users?ownedIngredients_like=Cheese')
   }
 ]
 ```
-
-[^ top ^](#get-users-with-ingredients)

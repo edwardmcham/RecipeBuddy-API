@@ -46,5 +46,3 @@ fetch('/recipes?ingredients_like=spinach')
     }
 ]
 ```
-
-[^ top ^](#get-recipes-with-ingredients)

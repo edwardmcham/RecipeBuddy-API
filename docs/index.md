@@ -28,5 +28,3 @@ The API returns dishes like *Spinach Cheese Omelet* or *Aloo Palak*, which can b
 
 - [Get recipes with ingredients](./tasks/get-recipes-with-ingredients.md)
 - [Get users with ingredients](./tasks/get-users-with-ingredients.md)
-
-[^ top ^](#overview)
